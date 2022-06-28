@@ -1,0 +1,29 @@
+@media(max-width: 600px){
+    #big{
+        display: none;
+    }
+    #wgb{
+        color: aliceblue;
+    }
+}
+@media(min-width: 600px){
+    #small{
+        display: none;
+    }
+    #wgb{
+        color: gray;
+    }
+}
+@media(max-width: 1439px){
+    #full{
+        display: none;
+    }
+}
+@media(min-width: 1439px){
+    #wgb{
+        color: black;
+    }
+}
+#always{
+    color: blue;
+}
